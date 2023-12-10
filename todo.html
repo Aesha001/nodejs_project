@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Todo App</title>
+        <script src="angularjs.js"></script>
+        <script src="todo_module.js"></script>
+    </head>
+<body class="container" ng-app="myApp" ng-controller="myCtrl">
+<h1>TODO APP</h1>
+{{taskData}}
+<!--
+<form ng-submit="addnewtask(newtask)">
+
+</form>
+<input class="form-control" type="search" ng-model="ser" placeholder="Serach here"/>
+<table class="table table-hover table-primary">
+    <tr>
+        <td>task ID</td>
+        <td>task Name</td>
+        <td>task Satus</td>
+    </tr>
+    <tr ng-repeat="item in taskData | filter:ser | orderBy:'taskName' track by $index">
+        <td>{{item.taskId}}</td>
+        <td>{{item.taskName}}</td>
+    </tr>
+
+</table>-->
+</body>
+</html>
